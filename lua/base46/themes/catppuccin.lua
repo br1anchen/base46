@@ -57,6 +57,8 @@ M.polish_hl = {
   TSVariable = { fg = M.base_30.lavender },
   TSProperty = { fg = M.base_30.teal },
   TSVariableBuiltin = { fg = M.base_30.red },
+  Operator = { fg = M.base_30.dark_purple },
+  TSAttribute = { fg = M.base_30.purple },
 }
 
 vim.opt.bg = "dark"
