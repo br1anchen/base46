@@ -89,6 +89,8 @@ M.polish_hl = {
   ["@property"] = { fg = M.base_30.teal },
   ["@variable.builtin"] = { fg = M.base_30.red },
   ["@attribute"] = { fg = M.base_30.purple },
+  FloatShadow = { fg = M.base_30.grey_fg },
+  FloatShadowThrough = { fg = M.base_30.grey_fg },
 }
 
 vim.opt.bg = "dark"
