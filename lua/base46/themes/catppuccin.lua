@@ -85,10 +85,10 @@ M.base_16 = {
 }
 
 M.polish_hl = {
-  TSVariable = { fg = M.base_30.lavender },
-  TSProperty = { fg = M.base_30.teal },
-  TSVariableBuiltin = { fg = M.base_30.red },
-  TSAttribute = { fg = M.base_30.purple },
+  ["@variable"] = { fg = M.base_30.lavender },
+  ["@property"] = { fg = M.base_30.teal },
+  ["@variable.builtin"] = { fg = M.base_30.red },
+  ["@attribute"] = { fg = M.base_30.purple },
 }
 
 vim.opt.bg = "dark"
